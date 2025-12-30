@@ -18,7 +18,6 @@ This project demonstrates a complete data pipeline, integrating transactional da
     - Created 1-to-Many relationships between the Excel dimension table and the SQL fact tables.
 - **DAX Calculations:** Developed custom measures including:
     - `Total Revenue`: `SUMX(order_details, order_details[quantity] * RELATED(pizzas[price]))`
-    - `Average Order Value (AOV)`
     - `Total Orders`
 
 ## Business Insights
